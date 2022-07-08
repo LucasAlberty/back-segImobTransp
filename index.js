@@ -79,6 +79,8 @@ app.delete("/delete/:id", (req, res) => {
   });
 });
 
+
+//porta em que esta sendo executado o node
 app.listen(3001, () => {
   console.log("rodando servidor");
 });
